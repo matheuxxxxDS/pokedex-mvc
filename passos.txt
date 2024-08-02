@@ -12,3 +12,15 @@ cd Pokedex
 dotnet watch run
 
 ABRIR Nuget Gallery : ctrl + shift + P - pesquisar Nuget
+
+
+dotnet toll install --global dotnet-ef --version 8.0.7
+
+dotnet toll update --global dotnet-ef --version 8.0.7
+
+//Pasta do projeto
+dotnet ef migrations add inicializando-banco
+
+dotnet ef database update
+
+Finalizada configuração dos sevições de conexão e gestão de usuário.
